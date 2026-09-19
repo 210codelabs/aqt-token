@@ -20,6 +20,7 @@ This file records the official submission paths and the information to use. Bein
 ## Submission status
 
 - **Uniswap default token list:** issue submitted at [Uniswap/default-token-list#2585](https://github.com/Uniswap/default-token-list/issues/2585). Inclusion is not guaranteed and remains subject to review.
+- **PancakeSwap token list:** review request submitted at [pancakeswap/token-list#756](https://github.com/pancakeswap/token-list/issues/756). This is a request for review, not an assertion that AQT has been accepted.
 - **CoinGecko:** submit through the official Request & Listing form. CoinGecko requires an account, a completed form, an image attachment, and captcha; it also requires active trading on a supported exchange. No approval is implied here.
 - **CoinMarketCap:** submit through the official online request form. CMC evaluates market data, liquidity, community interest, project activity, and documentation. Do not use listing intermediaries or send duplicate requests.
 - **Trust Wallet:** not submitted yet. Its current published criteria include CoinMarketCap price tracking, a reputable full security audit, and guideline thresholds of 10,000 holders and 15,000 non-airdrop transactions. AQT does not currently document those thresholds, so opening a PR now would likely be rejected.
