@@ -1,0 +1,31 @@
+name: Publish daily AQT transparency update
+
+on:
+  schedule:
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Generate today's update
+        run: bash scripts/generate_daily_news.sh
+
+      - name: Commit and push update
+        run: |
+          if git diff --quiet -- announcements/daily; then
+            echo "No new daily update was generated."
+            exit 0
+          fi
+          git config user.name "aqt-transparency-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add announcements/daily
+          git commit -m "chore: publish daily AQT transparency update"
+          git push
