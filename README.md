@@ -18,7 +18,7 @@ Public technical information and verifiable records for the Adaptiq Utility Toke
 | Official page | [210codelabs.com/aqt-token](https://210codelabs.com/aqt-token) |
 | Contact | [ernesto@210codelabs.com](mailto:ernesto@210codelabs.com) |
 
-Public announcements and daily transparency updates are collected in [`announcements/`](announcements/).
+Public announcements and daily transparency updates are collected in [`announcements/`](announcements/). The official listing data and submission record are in [`LISTING_SUBMISSION.md`](LISTING_SUBMISSION.md).
 
 ## Custody recovery record
 
