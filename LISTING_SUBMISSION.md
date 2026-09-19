@@ -19,9 +19,10 @@ This file records the official submission paths and the information to use. Bein
 
 ## Submission status
 
+- **Uniswap default token list:** issue submitted at [Uniswap/default-token-list#2585](https://github.com/Uniswap/default-token-list/issues/2585). Inclusion is not guaranteed and remains subject to review.
 - **CoinGecko:** submit through the official Request & Listing form. CoinGecko requires an account, a completed form, an image attachment, and captcha; it also requires active trading on a supported exchange. No approval is implied here.
 - **CoinMarketCap:** submit through the official online request form. CMC evaluates market data, liquidity, community interest, project activity, and documentation. Do not use listing intermediaries or send duplicate requests.
-- **Trust Wallet:** submit a pull request to the official `trustwallet/assets` repository after reviewing its new-asset requirements. Trust Wallet reviews the logo, metadata, project information, and circulation; inclusion is not guaranteed.
+- **Trust Wallet:** not submitted yet. Its current published criteria include CoinMarketCap price tracking, a reputable full security audit, and guideline thresholds of 10,000 holders and 15,000 non-airdrop transactions. AQT does not currently document those thresholds, so opening a PR now would likely be rejected.
 - **PancakeSwap:** the token can be traded by pasting the contract address. PancakeSwap's own token-list documentation says not to submit unsolicited pull requests for its default list. This repository's `tokenlist.json` is a public external token list and is not an official PancakeSwap approval.
 - **DEX trackers:** DEX Screener, GeckoTerminal, and DEXTools generally discover a pair from onchain activity. Correct metadata and sufficient liquidity improve the chance of complete indexing but do not guarantee it.
 
