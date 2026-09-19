@@ -1,0 +1,53 @@
+{
+  "observedAt": "2026-09-19",
+  "chainId": 1,
+  "token": {
+    "address": "0x4F57428adbd6F610C4485E7B69102fb462f9b287",
+    "owner": "0x09874CC4C1A6222FBB7BB45C1cf32A24cEe8f549",
+    "paused": false,
+    "totalSupplyBaseUnits": "1000000000000000000000000000"
+  },
+  "safe": {
+    "address": "0x09874CC4C1A6222FBB7BB45C1cf32A24cEe8f549",
+    "threshold": 2,
+    "owners": [
+      "0xB59AC23567a5715a24cA542461D35017705D62AD",
+      "0x9EB0E6AC56035E9e19FAb92F6E0D4769caF5B7A7",
+      "0x662CC10b7eAE9E887529E3AE8bEa33d106cc6B03"
+    ]
+  },
+  "holders": [
+    {
+      "address": "0x09874CC4C1A6222FBB7BB45C1cf32A24cEe8f549",
+      "balance": "601000000",
+      "percent": "60.1000"
+    },
+    {
+      "address": "0x1456bf52d3f1599dfD12e8c4DEc62aB44D8C034e",
+      "balance": "197656672",
+      "percent": "19.7657",
+      "projectControl": false,
+      "burnAddress": false
+    },
+    {
+      "address": "0xE236530907E5981Dc7a39Fdf706c7cE07Cb6b646",
+      "balance": "170803545.828494",
+      "percent": "17.0804"
+    }
+  ],
+  "pool": {
+    "address": "0x4E21b685e4aD2efD7E6aFE51890D2499f6cea100",
+    "protocol": "PancakeSwap V2",
+    "token0": "0x4F57428adbd6F610C4485E7B69102fb462f9b287",
+    "token1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "reserve0BaseUnits": "5776577217340973384136580",
+    "reserve1BaseUnits": "2690083232780506",
+    "executorLpSharePercent": "99.99115939129777"
+  },
+  "evidence": {
+    "ownershipTransferTx": "0x5bccb26a6c9659ea04467f7db02921ca72eb517bafda13428c6b23f15cc66ddb",
+    "buyTx": "0x9da016206c3930569bd2cc05e73182a7510fcd1d214fc6b7fb4b1ac85e844a60",
+    "approvalTx": "0x5c77d7c60b39eb554878af09218676f3ec32c993073c8bf718d16072c9f36e83",
+    "sellTx": "0x343057d75fe5f92b1b7ebb2c23e9ea720d51fbaedfc917f07db4b3dac8ee15c5"
+  }
+}

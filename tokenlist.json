@@ -1,0 +1,24 @@
+{
+  "name": "AQT Token List",
+  "timestamp": "2026-09-19T00:00:00Z",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "keywords": [
+    "aqt",
+    "adaptiq",
+    "210codelabs"
+  ],
+  "tokens": [
+    {
+      "chainId": 1,
+      "address": "0x4F57428adbd6F610C4485E7B69102fb462f9b287",
+      "name": "Adaptiq Utility Token",
+      "symbol": "AQT",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/210codelabs/aqt-token/main/assets/aqt-token-64.png"
+    }
+  ]
+}
