@@ -18,6 +18,10 @@ Public technical information and verifiable records for the Adaptiq Utility Toke
 | Official page | [210codelabs.com/aqt-token](https://210codelabs.com/aqt-token) |
 | Contact | [ernesto@210codelabs.com](mailto:ernesto@210codelabs.com) |
 
+## Custody recovery record
+
+The previously inaccessible wallet `0x1456bf52d3f1599dfD12e8c4DEc62aB44D8C034e` transferred `197,656,672 AQT` to the 2-of-3 Safe in [transaction `0x32ce...87c84`](https://etherscan.io/tx/0x32ceccab83cf49b7de0615b680965b9626e89d053d82265cf6ff7da50bf87c84). The updated custody table and dated onchain snapshot are in [`LIQUIDITY_AND_DISTRIBUTION_PLAN.md`](LIQUIDITY_AND_DISTRIBUTION_PLAN.md) and [`data/onchain-snapshot-2026-09-19.json`](data/onchain-snapshot-2026-09-19.json).
+
 ## Contract properties
 
 - Fixed supply minted once during deployment. The contract has no additional mint function.

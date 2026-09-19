@@ -18,13 +18,13 @@ The following was observed on Etherscan on 2026-09-19:
 
 | Address | Public role or status | Balance | Share of fixed supply |
 | --- | --- | ---: | ---: |
-| [`0x09874...8f549`](https://etherscan.io/token/0x4F57428adbd6F610C4485E7B69102fb462f9b287?a=0x09874CC4C1A6222FBB7BB45C1cf32A24cEe8f549) | 2-of-3 Safe treasury and token owner | 601,000,000 AQT | 60.1000% |
-| [`0x1456...034e`](https://etherscan.io/token/0x4F57428adbd6F610C4485E7B69102fb462f9b287?a=0x1456bf52d3f1599dfD12e8c4DEc62aB44D8C034e) | Address not controlled by the AQT team | 197,656,672 AQT | 19.7657% |
+| [`0x09874...8f549`](https://etherscan.io/token/0x4F57428adbd6F610C4485E7B69102fb462f9b287?a=0x09874CC4C1A6222FBB7BB45C1cf32A24cEe8f549) | 2-of-3 Safe treasury and token owner | 798,656,672 AQT | 79.8657% |
+| [`0x1456...034e`](https://etherscan.io/token/0x4F57428adbd6F610C4485E7B69102fb462f9b287?a=0x1456bf52d3f1599dfD12e8c4DEc62aB44D8C034e) | Recovered; balance transferred to Safe | 0 AQT | 0.0000% |
 | [`0xE236...b646`](https://etherscan.io/token/0x4F57428adbd6F610C4485E7B69102fb462f9b287?a=0xE236530907E5981Dc7a39Fdf706c7cE07Cb6b646) | Operational distributor | 170,803,545.828494 AQT | 17.0804% |
 
 The top three addresses therefore held approximately 96.9461% of the fixed supply at the snapshot date. This is significant concentration.
 
-The `0x1456...034e` balance is **not burned**. Its tokens remain part of `totalSupply()` and should not be described as permanently removed from circulation. The project states that it does not control this address.
+The previously inaccessible `0x1456...034e` balance was recovered and transferred to the Safe in [transaction `0x32ce...87c84`](https://etherscan.io/tx/0x32ceccab83cf49b7de0615b680965b9626e89d053d82265cf6ff7da50bf87c84). The transfer did not burn tokens; total supply remains fixed.
 
 ## Liquidity
 
