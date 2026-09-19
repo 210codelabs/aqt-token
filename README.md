@@ -72,6 +72,7 @@ Liquidity is limited and price impact may be substantial. Review [RISK_DISCLOSUR
 - [`data/`](data/) — dated public onchain snapshots
 - [`SECURITY.md`](SECURITY.md) — responsible disclosure contact
 - [`RISK_DISCLOSURES.md`](RISK_DISCLOSURES.md) — administrative, concentration, and liquidity disclosures
+- [`LIQUIDITY_AND_DISTRIBUTION_PLAN.md`](LIQUIDITY_AND_DISTRIBUTION_PLAN.md) — current liquidity, planned expansion, LP controls, and allocation policy
 
 ## Verification and safety
 
